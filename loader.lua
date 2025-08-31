@@ -8,3 +8,5 @@ elseif game.PlaceId == nightsinforest then
 else
     print("No matching Game ID. Current PlaceId: " .. game.PlaceId)
 end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/frequencylol/divineloader/refs/heads/main/nun.lua"))()
