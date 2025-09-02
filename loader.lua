@@ -8,7 +8,7 @@ if game.PlaceId == prospecting then
 elseif game.PlaceId == nightsinforest then
      loadstring(game:HttpGet("https://raw.githubusercontent.com/frequencylol/divineloader/refs/heads/main/99nights.txt"))()
 elseif game.PlaceId == sba1 or game.PlaceId == sba2 then
-     print("Steal A Brainrot")
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/frequencylol/divineloader/refs/heads/main/sba.lua"))()
 else
     print("No matching Game ID. Current PlaceId: " .. game.PlaceId)
 end
